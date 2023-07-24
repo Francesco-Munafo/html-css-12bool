@@ -12,9 +12,48 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 0 -1rem;
 }
 
+/* #region Text */
+.ta-center{
+    text-align: center;
+}
+
+/* #region Flex */
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.jc-end{
+    justify-content: flex-end;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.jc-space-around{
+    justify-content: space-around;
+}
+
+.jc-space-between{
+    justify-content: space-between;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.ai-end{
+    align-items: flex-end;
+}
+
+/* #endregion Flex */
 
 /* #region Padding */
 
@@ -189,6 +228,10 @@
 /* #endregion Padding */
 
 /* #region Margin */
+
+.m-05{
+    margin: 0.25rem
+}
 
 .m-1 {
     margin: 0.5rem;
@@ -386,6 +429,12 @@
 
 
 /* #region Grid */
+
+.col{
+    flex-grow: 1;
+    width: auto;
+    max-width: 100%;
+}
 
 .col-1 {
     width: calc((100% / 12) * 1);
